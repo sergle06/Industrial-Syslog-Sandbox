@@ -4,6 +4,12 @@ A virtualized network infrastructure lab built to simulate real-world industrial
 * **Industrial Client Node (Virtual Machine):** Oracle VM VirtualBox running an isolated Ubuntu Linux instance (`Industrial-Client-01`).
 * **Network Configuration:** Implemented a **Bridged Network Adapter** to bypass standard NAT limitations. This assigns an independent IP footprint to the virtual machine on the local subnet to communicate directly with the host (`192.168.1.4`), allowing authentic peer-to-peer network packet routing.
 
+
+<img width="1240" height="388" alt="image" src="https://github.com/user-attachments/assets/d98e25ae-8cfa-40d2-9fd9-f592324d3245" />
+
+
+<img width="716" height="277" alt="image" src="https://github.com/user-attachments/assets/a38a68a2-6628-43e5-b77b-50c0467c14f0" />
+
 ```text
 ┌──────────────────────────────────────┐
 │  Ubuntu Linux VM (Client Node)       │
@@ -28,7 +34,3 @@ To simulate true industrial automation dashboard errors, the command pipeline wa
 Results & Verification
 The centralized logging architecture successfully captured, categorized, and visually indexed the simulated machine telemetry in real-time. Low-level routine messages retained standard baseline styling, while high-priority machine exceptions automatically triggered critical red telemetry indicators on the control dashboard—demonstrating a successful root-cause diagnostic pipeline.
 
-<img width="1240" height="388" alt="image" src="https://github.com/user-attachments/assets/d98e25ae-8cfa-40d2-9fd9-f592324d3245" />
-
-
-<img width="716" height="277" alt="image" src="https://github.com/user-attachments/assets/a38a68a2-6628-43e5-b77b-50c0467c14f0" />
